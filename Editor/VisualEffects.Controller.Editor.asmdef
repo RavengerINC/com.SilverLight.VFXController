@@ -1,0 +1,18 @@
+{
+    "name": "VisualEffects.Controller.Editor",
+    "rootNamespace": "VisualEffects.Controller.Editor",
+    "references": [
+        "GUID:c2c54d88690fd9848a5fe051dd928d2e"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

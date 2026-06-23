@@ -1,0 +1,14 @@
+{
+    "name": "com.silverlight.vfxcontroller",
+    "version": "1.0.0",
+    "displayName": "VFX Controller",
+    "description": "A package to control visual effects in Unity.",
+    "unity": "6000.0",
+    "author": {
+        "name": "Silver Light Citadel",
+        "email": "",
+        "url": ""
+    },
+    "dependencies": {        
+    }
+}
