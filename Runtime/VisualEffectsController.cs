@@ -6,17 +6,17 @@ namespace VisualEffects.Controller
 {
     public class VisualEffectsController : MonoBehaviour
     {
-        private Dictionary<string, VisualEffect> M_VisualEffects;
+        private Dictionary<string, VisualEffectSequence> M_VisualEffects;
 
         private void Awake()
         {
-            VisualEffect[] effects = GetComponents<VisualEffect>();
+            VisualEffectSequence[] effects = GetComponents<VisualEffectSequence>();
             M_VisualEffects = effects.ToDictionary(a => a.Name);
             
             DefaultEffectsOff();
         }
 
-        public VisualEffect GetAssembly(string label)
+        public VisualEffectSequence GetAssembly(string label)
         {
             return M_VisualEffects.GetValueOrDefault(label);
         }

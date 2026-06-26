@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace VisualEffects.Controller
 {
-    public class VisualEffect : MonoBehaviour
+    public class VisualEffectSequence : MonoBehaviour
     {
         public string Name;
 
